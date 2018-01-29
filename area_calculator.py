@@ -25,6 +25,13 @@ elif option == 'T':
   sleep(1)
   print("%.2f" % (area))
   
+elif option == 'S':
+  side = float(input("Enter side: "))
+  area = side ** 2
+  print("Deng...")
+  sleep(1)
+  print(f"the area of square is {area}a.")
+  
 else:
   print("You entered garbage! Exiting...")
   sleep(3)
