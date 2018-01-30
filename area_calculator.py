@@ -32,6 +32,17 @@ elif option == 'S':
   sleep(1)
   print(f"the area of square is {area}a.")
   
+elif option == 'TR':
+  print("Your calculating the area of Trapezoid")
+  sleep(1)
+  base1 = float(input("Enter base: "))
+  base2 = float(input("Enter base: "))
+  height = float(input("Enter height: "))
+  area = (base1 + base2) / 2 * height
+  print("a few more sec...")
+  sleep(1)
+  print(f"the area of Trapezoid is {area}a.")
+  
 else:
   print("You entered garbage! Exiting...")
   sleep(3)
